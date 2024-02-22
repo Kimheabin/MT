@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.6.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../firebasepush/.gradle/caches/transforms-3/2e22d29f3a5b45831e4d8a2f88db5882/transformed/lifecycle-runtime-2.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../firebasepush/.gradle/caches/transforms-3/2e22d29f3a5b45831e4d8a2f88db5882/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../firebasepush/.gradle/caches/transforms-3/2e22d29f3a5b45831e4d8a2f88db5882/transformed/lifecycle-runtime-2.6.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../firebasepush/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.6.1/f653a171fc041d7062a83c81458c12f0201bcd6f/lifecycle-runtime-2.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

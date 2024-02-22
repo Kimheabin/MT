@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/segoescb"
+        android:gravity="center_horizontal"
+        android:text="@string/logo"
+        android:textAppearance="@style/logo"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/segoescb"
+        android:gravity="center_horizontal"
+        android:text="@string/title"
+        android:textAppearance="@style/title"
+        android:textSize="65dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <!-- orientation: 나열되는 방향 지정
+         -horizontal: 가로 정렬
+         -vertical: 세로 정렬 -->
+
+        <LinearLayout
+            android:layout_width="241dp"
+            android:layout_height="170dp"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="241dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:hint="아이디"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="241dp"
+                android:layout_height="80dp"
+                android:hint="비밀번호"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <android.widget.Button
+                android:id="@+id/Login_button"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/rectangle_style"
+                android:gravity="center"
+                android:text="로그인"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/find_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/segoescb"
+                android:gravity="center_horizontal"
+                android:text="아이디/비번찾기"
+                android:textAppearance="@style/logo"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"/>
+
+<TextView
+        android:id="@+id/SNS_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/segoescb"
+        android:gravity="center"
+        android:text="@string/text"
+        android:textAppearance="@style/logo"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"/>
+
+    <android.widget.Button
+        android:id="@+id/kakao_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="카카오톡으로 로그인"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:background="@color/kakao_yellow" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:text="구글로 로그인"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
+        
+

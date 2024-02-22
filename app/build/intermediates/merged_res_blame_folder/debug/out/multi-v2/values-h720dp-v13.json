@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sungkyul.metrotime.app-mergeDebugResources-3:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudioProjects\\firebasepush\\.gradle\\caches\\transforms-3\\868e50d10c597d89aa8ce05aa959bafd\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
