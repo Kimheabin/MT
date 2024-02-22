@@ -12,7 +12,20 @@
           "package_name": "com.example.metrotime"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "460081109823-862hqs4vs53a6hgampse7d15bvqtf6kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.metrotime",
+            "certificate_hash": "7ad9af48225be08efc3704f2f0d02d425aa21764"
+          }
+        },
+        {
+          "client_id": "460081109823-4tchisflfh2mpdc0uk5bk9b7ik1ngn8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCsGBRKnfFLVJ6XdPrhvgdacz9UIvPvIBI"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460081109823-4tchisflfh2mpdc0uk5bk9b7ik1ngn8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
